@@ -30,4 +30,12 @@ public class Humain {
 	public String toString() {
 		return "Humain [nom=" + nom + ", prenom=" + prenom + ", age=" + age + "]";
 	}
+	
+	public void manger() {
+		System.out.println("Miam Miam ! " + nom + " " + prenom + " est en train de manger...");
+	}
+	
+	public void boire() {
+		System.out.println("Glou Glou Glou ! " + nom + " " + prenom + " est en train de boire...");
+	}
 }
